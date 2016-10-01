@@ -49,7 +49,7 @@ const callbackHTML = `<!DOCTYPE html>
 `
 
 fs.emptyDirSync('docs')
-fs.outputFileSync('docs/CNAME', 'leafadventure.com\n')
+fs.outputFileSync('docs/CNAME', 'leaf.im\n')
 fs.outputFileSync('docs/gate-auth/index.html', connectHTML)
 fs.outputFileSync('docs/gate-auth/callback.html', callbackHTML)
 fs.outputFileSync('docs/index.html', redirectHTML('https://soundcloud.com/leafadventure'))
@@ -59,6 +59,3 @@ redirs.forEach((redir) => {
     fs.outputFileSync(`docs/${url}/index.html`, redirectHTML(redir.dest))
   })
 })
-
-// TODO Create gate-auth/index.html
-// TODO Create gate-follow/index.html
