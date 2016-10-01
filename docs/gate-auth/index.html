@@ -13,16 +13,9 @@
       SC.connect().then(function() {
         return SC.get('/me');
       }).then(function(me) {
-        alert('Hello, ' + me.username);
+        SC.put('/me/followings/21200711');
+        window.location.replace("http://leaf.im/db-dl");
       });
-
-      // SC.connect().then(function(){
-      //   return SC.put('/me/followings/21200711');
-      // }).then(function(user){
-      //   alert('You are now following ' + user.username);
-      // }).catch(function(error){
-      //   alert('Error: ' + error.message);
-      // });
     </script>
   </body>
 </html>
