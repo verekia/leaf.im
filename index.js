@@ -24,7 +24,7 @@ const connectHTML = `<!doctype html>
       }
       p {
         top: 200px;
-        width: 400px;
+        max-width: 400px;
         color: #333;
         font-family: sans-serif;
         line-height: 20px;
