@@ -19,7 +19,7 @@ const connectHTML = `<!doctype html>
     <script>
       SC.initialize({
         client_id: 'bb00ef3aa833887211ec2eebc049ae7a',
-        redirect_uri: 'http://localhost:8000/docs/gate-auth/callback.html'
+        redirect_uri: 'http://leaf.im/gate-follow/'
       });
 
       SC.connect().then(function(){
