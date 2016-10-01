@@ -19,15 +19,16 @@ const connectHTML = `<!doctype html>
   <body>
     <style>
       p {
-        top: 200px
+        top: 200px;
         width: 400px;
         color: #333;
         font-family: sans-serif;
         line-height: 20px;
+        text-align: center;
       }
     </style>
     <p>
-      If your browser blocked the SoundCloud log in popup, please allow it and refresh this page :)
+      If your browser blocked the SoundCloud login popup, please allow it and refresh this page :)
     </p>
 
     <script>
