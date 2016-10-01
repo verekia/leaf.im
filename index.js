@@ -28,9 +28,10 @@ const connectHTML = `<!doctype html>
       }
     </style>
     <p>
-      If your browser blocked the SoundCloud login popup, please allow it and refresh this page :)
+      If your browser blocked the SoundCloud login popup, please allow it to show and refresh this page :)
     </p>
 
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
     <script>
       SC.initialize({
         client_id: 'bb00ef3aa833887211ec2eebc049ae7a',
