@@ -1,22 +1,28 @@
 <!doctype html>
 <html>
   <head>
+  </head>
+  <body>
     <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
     <script>
       SC.initialize({
         client_id: 'bb00ef3aa833887211ec2eebc049ae7a',
-        redirect_uri: 'http://leaf.im/gate-follow/'
+        redirect_uri: 'http://leaf.im/gate-follow'
       });
 
-      SC.connect().then(function(){
-        return SC.put('/me/followings/21200711');
-      }).then(function(user){
-        alert('You are now following ' + user.username);
-      }).catch(function(error){
-        alert('Error: ' + error.message);
+      SC.connect().then(function() {
+        return SC.get('/me');
+      }).then(function(me) {
+        alert('Hello, ' + me.username);
       });
+
+      // SC.connect().then(function(){
+      //   return SC.put('/me/followings/21200711');
+      // }).then(function(user){
+      //   alert('You are now following ' + user.username);
+      // }).catch(function(error){
+      //   alert('Error: ' + error.message);
+      // });
     </script>
-  </head>
-  <body>
   </body>
 </html>
