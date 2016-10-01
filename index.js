@@ -1,39 +1,22 @@
+const fs = require('fs-extra')
+
 const redirs = require('./redirs')
 
-const location = process.argv[2]
-
-let newLocation = ''
 redirs.forEach((redir) => {
   redir.urls.forEach((url) => {
-    if (location === url) {
-      newLocation = redir.dest
-    }
+    fs.outputFileSync(`docs/${url}/index.html`, `
+      <!doctype html>
+      <html>
+        <head>
+          <meta http-equiv="refresh" content="0; URL='${redir.dest}'" />
+        </head>
+        <body>
+        </body>
+      </html>
+    `)
   })
 })
 
-if (location === 'gate-auth') {
-  // TODO
-  console.log('GATE AUTH')
-}
-
-if (location === 'gate-follow') {
-  // TODO
-  console.log('GATE FOLLOW')
-}
-
-if (location === '') {
-  newLocation = 'https://soundcloud.com/leafadventure'
-}
-
-console.log(
-  `
-  <!doctype html>
-  <html>
-    <head>
-      <meta http-equiv="refresh" content="0; URL='${newLocation}'" />
-    </head>
-    <body>
-    </body>
-  </html>
-  `
-)
+// TODO Create gate-auth/index.html
+// TODO Create gate-follow/index.html
+// TODO Make the root index.html redirect to 'https://soundcloud.com/leafadventure'
