@@ -1,0 +1,72 @@
+{
+  "name": "leaf.im",
+  "version": "1.0.0",
+  "description": "Leaf Adventure's URL redirect service",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verekia/leaf.im.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verekia/leaf.im/issues"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "semi": [
+        2,
+        "never"
+      ],
+      "no-unexpected-multiline": 2,
+      "func-names": 0,
+      "react/prop-types": 0,
+      "react/jsx-closing-bracket-location": 0,
+      "new-cap": [
+        2,
+        {
+          "capIsNewExceptions": [
+            "Map",
+            "List"
+          ]
+        }
+      ],
+      "import/order": [
+        2,
+        {
+          "groups": [
+            "external",
+            "builtin",
+            "index",
+            "sibling",
+            "parent",
+            "internal"
+          ],
+          "newlines-between": "always"
+        }
+      ],
+      "import/named": 2,
+      "import/default": 2
+    },
+    "env": {
+      "browser": true
+    },
+    "plugins": [
+      "import"
+    ]
+  },
+  "homepage": "https://github.com/verekia/leaf.im#readme",
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  }
+}
