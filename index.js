@@ -25,4 +25,15 @@ if (location === '') {
   newLocation = 'https://soundcloud.com/leafadventure'
 }
 
-console.log(newLocation)
+console.log(
+  `
+  <!doctype html>
+  <html>
+    <head>
+      <meta http-equiv="refresh" content="0; URL='${newLocation}'" />
+    </head>
+    <body>
+    </body>
+  </html>
+  `
+)
