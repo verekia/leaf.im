@@ -146,6 +146,8 @@ module.exports = [
     'escape-reddit'],
     dest: 'http://www.reddit.com/r/leafadventure/comments/32bgp0/leaf_adventure_escape_ft_mona_moua/' },
 
+  { urls: ['hia'],
+    dest: 'https://ampl.ink/dVOmn' },
 
   // Arcanes
 
