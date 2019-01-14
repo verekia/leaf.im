@@ -149,8 +149,9 @@ module.exports = [
 
   // Arcanes
 
+  { urls: ['arcanes'],
+    dest: 'https://ampl.ink/d8Dx5' },
   { urls: [
-    'arcanes',
     'soundcloud-arcanes',
     'arcanes-soundcloud',
     'sc-arcanes',
