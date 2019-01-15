@@ -134,8 +134,9 @@ module.exports = [
 
   // Escape (ft. Mona Moua)
 
+  { urls: ['escape'],
+    dest: 'https://ampl.ink/gGlRO' },
   { urls: [
-    'escape',
     'soundcloud-escape',
     'escape-soundcloud',
     'sc-escape',
