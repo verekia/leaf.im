@@ -25,6 +25,8 @@ module.exports = [
   { urls: ['join-slack'], dest: 'https://musicprodslack.herokuapp.com/' },
   { urls: ['slack'], dest: 'https://musicprod.slack.com' },
 
+  { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb?si=kga-8lYWTaysEPi83iZ9cA' },
+
   { urls: [
     'metalectro',
     'reddit-metalectro',
