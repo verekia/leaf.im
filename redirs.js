@@ -152,6 +152,9 @@ module.exports = [
   { urls: ['hia'],
     dest: 'https://ampl.ink/dVOmn' },
 
+  { urls: ['runway'],
+    dest: 'https://ampl.ink/go4Rv' },
+
   // Arcanes
 
   { urls: ['arcanes'],
