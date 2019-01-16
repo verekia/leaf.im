@@ -178,8 +178,10 @@ module.exports = [
 
   // 50 Rings
 
+  { urls: ['50-rings'],
+    dest: 'https://ampl.ink/79YDb' },
+
   { urls: [
-    '50-rings',
     'soundcloud-50-rings',
     '50-rings-soundcloud',
     'sc-50-rings',
