@@ -315,7 +315,6 @@ module.exports = [
     dest: 'https://ampl.ink/d8D4Q' },
 
   { urls: [
-    'welcome-aboard',
     'soundcloud-welcome-aboard',
     'welcome-aboard-soundcloud',
     'sc-welcome-aboard',
