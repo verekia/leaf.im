@@ -198,8 +198,10 @@ module.exports = [
 
   // Power Up
 
+  { urls: ['power-up'],
+    dest: 'https://ampl.ink/dbwLA' },
+
   { urls: [
-    'power-up',
     'soundcloud-power-up',
     'power-up-soundcloud',
     'sc-power-up',
