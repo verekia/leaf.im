@@ -6,7 +6,7 @@ module.exports = [
   { urls: ['soundcloud', 'sc', 's'], dest: 'https://soundcloud.com/leafadventure' },
   { urls: ['facebook', 'fb', 'f'], dest: 'https://www.facebook.com/leafadventure' },
   { urls: ['twitter', 'tw', 't'], dest: 'https://twitter.com/leafadventure' },
-  { urls: ['youtube', 'yt', 'y'], dest: 'https://www.youtube.com/user/leafelectro' },
+  { urls: ['youtube', 'yt', 'y'], dest: 'https://www.youtube.com/leafadventuremusic' },
   { urls: ['paypal', 'pp', 'donate', 'd'], dest: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XNEV4HBLAFWE8' },
   { urls: ['plus', 'p'], dest: 'https://plus.google.com/+leafadventure' },
   { urls: ['reddit', 'r'], dest: 'http://www.reddit.com/r/leafadventure/' },
