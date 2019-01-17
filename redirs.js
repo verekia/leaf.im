@@ -85,6 +85,9 @@ module.exports = [
   { urls: ['level-2'],
     dest: 'https://ampl.ink/gez3Z' },
 
+  { urls: ['level-1'],
+    dest: 'https://ampl.ink/gGlvo' },
+
   { urls: [
     'soundcloud-level-1',
     'level-1-soundcloud',
