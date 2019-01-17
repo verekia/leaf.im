@@ -27,6 +27,8 @@ module.exports = [
 
   { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb?si=kga-8lYWTaysEPi83iZ9cA' },
 
+  { urls: ['all', 'all-tracks'], dest: 'https://ampl.ink/dNv32' },
+
   { urls: [
     'metalectro',
     'reddit-metalectro',
