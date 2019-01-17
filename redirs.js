@@ -82,8 +82,10 @@ module.exports = [
 
   // ========== EPs ========== //
 
+  { urls: ['level-2'],
+    dest: 'https://ampl.ink/gez3Z' },
+
   { urls: [
-    'level-1',
     'soundcloud-level-1',
     'level-1-soundcloud',
     'sc-level-1',
@@ -95,7 +97,6 @@ module.exports = [
     dest: 'http://www.reddit.com/r/leafadventure/comments/324cou/leaf_adventure_level_1_ep/' },
 
   { urls: [
-    'level-0',
     'soundcloud-level-0',
     'level-0-soundcloud',
     'sc-level-0',
