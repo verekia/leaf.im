@@ -154,6 +154,9 @@ module.exports = [
   { urls: ['hia'],
     dest: 'https://ampl.ink/dVOmn' },
 
+  { urls: ['borealis'],
+    dest: 'https://ampl.ink/W4rql' },
+
   { urls: ['runway'],
     dest: 'https://ampl.ink/go4Rv' },
 
