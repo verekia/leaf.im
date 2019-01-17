@@ -110,6 +110,9 @@ module.exports = [
 
     // Razan (Preview)
 
+    { urls: ['razan'],
+      dest: 'https://ampl.ink/d23NL' },
+
     { urls: [
       'razan-preview',
       'soundcloud-razan-preview',
