@@ -286,8 +286,10 @@ module.exports = [
 
   // Cherry Blossom
 
+  { urls: ['cherry-blossom'],
+    dest: 'https://ampl.ink/WL9YX' },
+
   { urls: [
-    'cherry-blossom',
     'soundcloud-cherry-blossom',
     'cherry-blossom-soundcloud',
     'sc-cherry-blossom',
