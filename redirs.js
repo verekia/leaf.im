@@ -237,8 +237,10 @@ module.exports = [
 
   // Sapphire
 
+  { urls: ['sapphire'],
+    dest: 'https://ampl.ink/dZyjO' },
+
   { urls: [
-    'sapphire',
     'soundcloud-sapphire',
     'sapphire-soundcloud',
     'sc-sapphire',
