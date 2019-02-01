@@ -68,7 +68,7 @@ fs.emptyDirSync('docs')
 fs.outputFileSync('docs/CNAME', 'leaf.im\n')
 fs.outputFileSync('docs/gate-auth/index.html', connectHTML)
 fs.outputFileSync('docs/gate-follow/index.html', callbackHTML)
-fs.outputFileSync('docs/index.html', redirectHTML('https://ampl.ink/7aBNo'))
+fs.outputFileSync('docs/index.html', redirectHTML('https://leafadventure.com'))
 
 redirs.forEach((redir) => {
   redir.urls.forEach((url) => {
