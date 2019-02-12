@@ -25,7 +25,7 @@ module.exports = [
   { urls: ['join-slack'], dest: 'https://musicprodslack.herokuapp.com/' },
   { urls: ['slack'], dest: 'https://musicprod.slack.com' },
 
-  { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb?si=kga-8lYWTaysEPi83iZ9cA' },
+  { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb' },
 
   { urls: ['all', 'all-tracks'], dest: 'https://ampl.ink/dNv32' },
   { urls: ['artist', 'profile'], dest: 'https://ampl.ink/WnALZ' },
