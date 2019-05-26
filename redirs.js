@@ -31,6 +31,7 @@ module.exports = [
   { urls: ['artist', 'profile'], dest: 'https://ampl.ink/WnALZ' },
 
   { urls: ['vip'], dest: 'https://leafadventure.com/vip/' },
+  { urls: ['vip-discord-invite'], dest: 'https://discord.gg/6fjqzsP' },
 
   { urls: [
     'metalectro',
