@@ -33,7 +33,7 @@ module.exports = [
   { urls: ['vip'], dest: 'https://leafadventure.com/vip/' },
   { urls: ['vip-discord-invite'], dest: 'https://discord.gg/6fjqzsP' },
   { urls: ['vip-story'], dest: 'https://leafadventure.com/vip-story' },
-  { urls: ['vip-downloads'], dest: '' },
+  { urls: ['vip-downloads'], dest: 'https://www.dropbox.com/sh/6no4noz97acjetg/AAAXeLLd4nLJBMpUQ9aEI02fa?dl=0' },
 
   { urls: [
     'metalectro',
