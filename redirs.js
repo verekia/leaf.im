@@ -30,6 +30,8 @@ module.exports = [
   { urls: ['all', 'all-tracks'], dest: 'https://ampl.ink/dNv32' },
   { urls: ['artist', 'profile'], dest: 'https://ampl.ink/WnALZ' },
 
+  { urls: ['vip'], dest: 'https://leafadventure.com/vip/' },
+
   { urls: [
     'metalectro',
     'reddit-metalectro',
