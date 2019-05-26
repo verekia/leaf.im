@@ -32,6 +32,7 @@ module.exports = [
 
   { urls: ['vip'], dest: 'https://leafadventure.com/vip/' },
   { urls: ['vip-discord-invite'], dest: 'https://discord.gg/6fjqzsP' },
+  { urls: ['vip-story'], dest: 'https://leafadventure.com/vip-story' },
 
   { urls: [
     'metalectro',
