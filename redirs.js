@@ -30,6 +30,8 @@ module.exports = [
   { urls: ['all', 'all-tracks'], dest: 'https://ampl.ink/dNv32' },
   { urls: ['artist', 'profile'], dest: 'https://ampl.ink/WnALZ' },
 
+  { urls: ['instagram', 'ig'], dest: 'https://instagram.com/leafadventure' },
+
   { urls: ['vip'], dest: 'https://leafadventure.com/vip/' },
   { urls: ['vip-discord-invite'], dest: 'https://discord.gg/6fjqzsP' },
   { urls: ['vip-story'], dest: 'https://leafadventure.com/vip-story' },
