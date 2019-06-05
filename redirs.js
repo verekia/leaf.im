@@ -26,6 +26,7 @@ module.exports = [
   { urls: ['slack'], dest: 'https://musicprod.slack.com' },
 
   { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb' },
+  { urls: ['apple', 'apple-music'], dest: 'https://itunes.apple.com/artist/leaf-adventure/1241547069' },
 
   { urls: ['bandcamp', 'buy'], dest: 'https://leafadventure.bandcamp.com' },
 
