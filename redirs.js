@@ -27,6 +27,8 @@ module.exports = [
 
   { urls: ['spotify'], dest: 'https://open.spotify.com/artist/1lAftkUKlhBiQcvORtQKfb' },
 
+  { urls: ['bandcamp', 'buy'], dest: 'https://leafadventure.bandcamp.com' },
+
   { urls: ['all', 'all-tracks'], dest: 'https://ampl.ink/dNv32' },
   { urls: ['artist', 'profile'], dest: 'https://ampl.ink/WnALZ' },
 
